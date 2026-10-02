@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_sign_up_activity"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/colorPrimary"
+        android:title="Projemanag"
+        android:titleTextColor="@android:color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp">
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/et_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Full Name"
+                android:inputType="text" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp">
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:inputType="textEmailAddress" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp">
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/et_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:inputType="textPassword" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btn_sign_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:textColor="@android:color/white"
+            android:background="@drawable/shape_button_rounded"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

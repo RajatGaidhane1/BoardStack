@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@android:color/white"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="330dp"
+        android:layout_height="330dp"
+        android:src="@drawable/ic_intro_illustration"
+        android:layout_marginBottom="32dp"
+        android:contentDescription="Intro illustration" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Let's Get started"
+        android:textSize="28sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Collaborate and Plan Together Across Multiple Devices on Projemanag's Minimalist Interface"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:layout_marginBottom="64dp" />
+
+    <Button
+        android:id="@+id/btn_sign_in_intro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_in"
+        android:background="@drawable/shape_button_rounded"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="16dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_sign_up_intro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up"
+        android:background="@drawable/shape_button_rounded"
+        android:textColor="@android:color/white"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:textStyle="bold" />
+
+</LinearLayout>
